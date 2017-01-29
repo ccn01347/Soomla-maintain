@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+$DIR/submodules/build_all
+$DIR/soomla-native/projects/unity-soomla-android-core/build_all
+$DIR/soomla-native/projects/unity-soomla-ios-core/build_all

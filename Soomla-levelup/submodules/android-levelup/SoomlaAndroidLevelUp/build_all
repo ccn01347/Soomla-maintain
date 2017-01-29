@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+cd $DIR
+
+build=../build/
+
+rm -rf $build
+mkdir -p $build
+
+ant -buildfile soomla-android-levelup.xml -Dsoomla.filename="AndroidLevelUp" all
+
+cd - > /dev/null

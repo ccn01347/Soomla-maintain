@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../submodules/soomla-unity3d-core/Soomla/Assets/Soomla/Scripts/Core/Config/SoomlaEditorScript.cs">
+    <Files>
+      <File FileName="../submodules/soomla-unity3d-core/Soomla/Assets/Soomla/Scripts/Core/Config/SoomlaEditorScript.cs" Line="186" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,58 @@
+#!/bin/sh
+set -e
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+cd $DIR
+
+IOS_PROFILE_CACHE=~/.soomla/cache/ios-profile
+mkdir -p $IOS_PROFILE_CACHE
+
+mkdir -p libs
+
+# download Google Sign In framework if needed
+SIGNIN_NAME=google_signin_sdk_2_4_0.zip
+if [ ! -d libs/GoogleSignIn.framework ];
+then
+    if [ ! -f $IOS_PROFILE_CACHE/$SIGNIN_NAME ];
+    then
+        echo 'Downloading GoogleSignIn.framework...'
+        curl -Lo $IOS_PROFILE_CACHE/$SIGNIN_NAME.tmp https://developers.google.com/identity/sign-in/ios/sdk/google_signin_sdk_2_4_0.zip
+        mv $IOS_PROFILE_CACHE/$SIGNIN_NAME.tmp $IOS_PROFILE_CACHE/$SIGNIN_NAME
+    fi
+	unzip $IOS_PROFILE_CACHE/$SIGNIN_NAME
+	cp -r google_signin_sdk_2_4_0/*.framework libs/
+	cp -r google_signin_sdk_2_4_0/*.bundle libs/
+    rm -rf google_signin_sdk_2_4_0
+fi
+
+# download Google + if needed
+GPLUS_NAME=google-plus-ios-sdk-1.7.1.zip
+if [ ! -d libs/GooglePlus.framework ];
+then
+    if [ ! -f $IOS_PROFILE_CACHE/$GPLUS_NAME ];
+    then
+        echo 'Downloading GooglePlus.framework...'
+    	curl -Lo $IOS_PROFILE_CACHE/$GPLUS_NAME.tmp https://developers.google.com/+/mobile/ios/sdk/google-plus-ios-sdk-1.7.1.zip
+    	mv $IOS_PROFILE_CACHE/$GPLUS_NAME.tmp $IOS_PROFILE_CACHE/$GPLUS_NAME
+    fi
+
+	unzip $IOS_PROFILE_CACHE/$GPLUS_NAME
+	cp -r google-plus-ios-sdk-1.7.1/*.framework libs/
+	cp -r google-plus-ios-sdk-1.7.1/*.bundle libs/
+    rm -rf google-plus-ios-sdk-1.7.1
+fi
+
+# download GPGS framework if needed
+GPG_NAME=gpg-cpp-sdk.v2.0.zip
+if [ ! -d libs/gpg.framework ];
+then
+    if [ ! -f $IOS_PROFILE_CACHE/$GPG_NAME ];
+    then
+        echo 'Downloading GPGS.framework...'
+	    curl -Lo $IOS_PROFILE_CACHE/$GPG_NAME.tmp https://developers.google.com/games/services/downloads/gpg-cpp-sdk.v2.0.zip
+	    mv $IOS_PROFILE_CACHE/$GPG_NAME.tmp $IOS_PROFILE_CACHE/$GPG_NAME
+    fi
+	unzip $IOS_PROFILE_CACHE/$GPG_NAME
+	cp -r gpg-cpp-sdk/ios/*.framework libs/
+	cp -r gpg-cpp-sdk/ios/*.bundle libs/
+    rm -rf gpg-cpp-sdk
+fi

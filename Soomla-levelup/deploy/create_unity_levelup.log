@@ -1,0 +1,831 @@
+...300157 bytes written to /Users/stevelai/Library/Unity/Certificates/CACerts.pem
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+debugger-agent: Unable to listen on 6
+[usbmuxd] Stop listen thread
+[usbmuxd] Error: 
+[usbmuxd] Listen thread exiting
+efer=y,address=0.0.0.0:56518
+
+LICENSE SYSTEM [2017129 20:7:2] No start/stop license dates set
+
+LICENSE SYSTEM [2017129 20:7:2] Next license update check is after 2017-01-17T04:26:02
+
+
+ BATCHMODE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-batchmode
+-nographics
+-logFile
+create_unity_levelup.log
+-projectPath
+/Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/deploy/../Soomla/
+-exportPackage
+Assets/Plugins/Android/Soomla/libs/AndroidLevelUp.jar
+Assets/Plugins/Android/Soomla/libs/UnityAndroidLevelup.jar
+Assets/Plugins/iOS/Soomla/libSoomlaiOSLevelUp.a
+Assets/Plugins/iOS/Soomla/libUnityiOSLevelUp.a
+Assets/Soomla/Scripts/Levelup
+Assets/Soomla/levelup_file_list
+Assets/Soomla/Editor/build-tools/Soomla_LevelupRunner.py
+/Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/deploy/out/soomla-unity3d-levelup.unitypackage
+-quit
+Successfully changed project path to: /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/deploy/../Soomla/
+/Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/Soomla
+Loading GUID <-> Path mappings...0.000047 seconds
+Loading Asset Database...0.010242 seconds
+Audio: FMOD Profiler initialized on port 54900
+AssetDatabase consistency checks...0.009955 seconds
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+Forcing GfxDevice: Null
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.Locator.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.DataContract.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Core.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.IvyParser.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Configuration.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/PackageManager/Unity/PackageManager/5.5.0/Unity.PackageManager.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v5.5.0 for Unity v5.5.0f3
+Setting StandaloneOSXIntel v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport
+Setting Advertisements v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements
+  UnityEngine.Advertisements.dll (Extension) GUID: 739bbd9f364b4268874f9fd86ab3beef
+  Editor/UnityEditor.Advertisements.dll (Extension) GUID: 97decbdab0634cdd991f8d23ddf0dead
+Setting EditorTestsRunner v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner
+  Editor/nunit.framework.dll (Extension) GUID: 7cbab2be89b54486bbd23a6fe637d30e
+  Editor/UnityEditor.EditorTestsRunner.dll (Extension) GUID: 3c0ad459c1534645b5d603b7cc258f97
+Setting GUISystem v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem
+  UnityEngine.UI.dll (Extension) GUID: f5f67c52d1564df4a8936ccd202a3bd8
+  Standalone/UnityEngine.UI.dll (Extension) GUID: f70555f144d8491a825f0804e09c671c
+  Editor/UnityEditor.UI.dll (Extension) GUID: 80a3616ca19596e4da0f10f14d241e9f
+Setting UNetHLAPI v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking
+  UnityEngine.Networking.dll (Extension) GUID: 870353891bb340e2b2a9c8707e7419ba
+  Standalone/UnityEngine.Networking.dll (Extension) GUID: dc443db3e92b4983b9738c1131f555cb
+  Editor/UnityEditor.Networking.dll (Extension) GUID: 5f32cd94baa94578a686d4b9d6b660f7
+Setting PlaymodeTestsRunner v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner
+  Editor/UnityEditor.PlaymodeTestsRunner.dll (Extension) GUID: 4113173d5e95493ab8765d7b08371de4
+  UnityEngine.PlaymodeTestsRunner.dll (Extension) GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+Setting TreeEditor v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor
+  Editor/UnityEditor.TreeEditor.dll (Extension) GUID: adebbd281f1a4ef3a30be7f21937e02f
+Setting UnityAnalytics v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics
+  UnityEngine.Analytics.dll (Extension) GUID: 852E56802EB941638ACBB491814497B0
+  Editor/UnityEditor.Analytics.dll (Extension) GUID: 86f4de9468454445ac2f39e207fafa3a
+Setting UnityHoloLens v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens
+  Editor/UnityEditor.HoloLens.dll (Extension) GUID: 12fd8a0055b84bb59e84c9835a37e333
+  Runtime/UnityEngine.HoloLens.dll (Extension) GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+  RuntimeEditor/UnityEngine.HoloLens.dll (Extension) GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+Setting UnityPurchasing v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing
+  UnityEngine.Purchasing.dll (Extension) GUID: 8E0CD8ED44D4412CBE0642067ABC9E44
+Setting UnityVR v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR
+  Editor/UnityEditor.VR.dll (Extension) GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+  Runtime/UnityEngine.VR.dll (Extension) GUID: 6cdf1e5c78d14720aaadccd4C792df96
+  RuntimeEditor/UnityEngine.VR.dll (Extension) GUID: 307433eba81a469ab1e2084d52d1a5a2
+Registering custom dll's ...
+Register platform support module: /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005817 seconds.
+Non platform assembly: /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/Soomla/Library/ScriptAssemblies/Assembly-CSharp.dll (this message is harmless)
+Loading /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/Soomla/Library/ScriptAssemblies/Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/Soomla/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll (this message is harmless)
+Loading /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/Soomla/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/PackageManager/Unity/PackageManager/5.5.0/Unity.PackageManager.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/PackageManager/Unity/PackageManager/5.5.0/Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll (this message is harmless)
+Loading /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/nunit.core.interfaces.dll (this message is harmless)
+Refreshing native plugins compatible for Editor in 5.32 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 1.67 ms.
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Mono.Cecil.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.SerializationLogic.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/UnityScript.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.Linq.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/nunit.core.dll (this message is harmless)
+Non platform assembly: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Registering platform support modules:
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/UnityScript.Lang.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Mono.Security.dll (this message is harmless)
+Registered platform support modules in: 0.0943s.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Loading native library: UnityEditor.iOS.Native at /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Native.dylib
+Native extension for iOS target not found
+Native extension for Android target not found
+Ignoring 'Assets/Plugins/WP8/Soomla/Placeholder/soomla-wp-core.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/WP8/Soomla/Placeholder/wp-store.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/WP8/Soomla/Placeholder/soomla-wp-core.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/WP8/Soomla/Placeholder/wp-store.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/WP8/Soomla/Placeholder/soomla-wp-core.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/WP8/Soomla/Placeholder/wp-store.dll' because we're compiling for Editor
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.Locator.dll (this message is harmless)
+Registering custom dll's ...
+Register platform support module: /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Core.dll (this message is harmless)
+Registered in 0.006800 seconds.
+Non platform assembly: /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/Soomla/Library/ScriptAssemblies/Assembly-CSharp.dll (this message is harmless)
+Loading /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/Soomla/Library/ScriptAssemblies/Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/Soomla/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll (this message is harmless)
+Loading /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/Soomla/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/PackageManager/Unity/PackageManager/5.5.0/Unity.PackageManager.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/PackageManager/Unity/PackageManager/5.5.0/Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll (this message is harmless)
+Loading /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
+Loading /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll (this message is harmless)
+Loading /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/nunit.core.interfaces.dll (this message is harmless)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.34 ms.
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Mono.Cecil.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.SerializationLogic.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.DataContract.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/UnityScript.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.Linq.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.IvyParser.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/nunit.core.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.435 seconds
+Initializing Unity.PackageManager (PackageManager) v5.5.0 for Unity v5.5.0f3
+Setting StandaloneOSXIntel v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport
+Setting Advertisements v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements
+  UnityEngine.Advertisements.dll (Extension) GUID: 739bbd9f364b4268874f9fd86ab3beef
+  Editor/UnityEditor.Advertisements.dll (Extension) GUID: 97decbdab0634cdd991f8d23ddf0dead
+Setting EditorTestsRunner v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner
+  Editor/nunit.framework.dll (Extension) GUID: 7cbab2be89b54486bbd23a6fe637d30e
+  Editor/UnityEditor.EditorTestsRunner.dll (Extension) GUID: 3c0ad459c1534645b5d603b7cc258f97
+Setting GUISystem v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem
+  UnityEngine.UI.dll (Extension) GUID: f5f67c52d1564df4a8936ccd202a3bd8
+  Standalone/UnityEngine.UI.dll (Extension) GUID: f70555f144d8491a825f0804e09c671c
+  Editor/UnityEditor.UI.dll (Extension) GUID: 80a3616ca19596e4da0f10f14d241e9f
+Setting UNetHLAPI v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking
+  UnityEngine.Networking.dll (Extension) GUID: 870353891bb340e2b2a9c8707e7419ba
+  Standalone/UnityEngine.Networking.dll (Extension) GUID: dc443db3e92b4983b9738c1131f555cb
+  Editor/UnityEditor.Networking.dll (Extension) GUID: 5f32cd94baa94578a686d4b9d6b660f7
+Setting PlaymodeTestsRunner v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner
+  Editor/UnityEditor.PlaymodeTestsRunner.dll (Extension) GUID: 4113173d5e95493ab8765d7b08371de4
+  UnityEngine.PlaymodeTestsRunner.dll (Extension) GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+Setting TreeEditor v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor
+  Editor/UnityEditor.TreeEditor.dll (Extension) GUID: adebbd281f1a4ef3a30be7f21937e02f
+Setting UnityAnalytics v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics
+  UnityEngine.Analytics.dll (Extension) GUID: 852E56802EB941638ACBB491814497B0
+  Editor/UnityEditor.Analytics.dll (Extension) GUID: 86f4de9468454445ac2f39e207fafa3a
+Setting UnityHoloLens v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens
+  Editor/UnityEditor.HoloLens.dll (Extension) GUID: 12fd8a0055b84bb59e84c9835a37e333
+  Runtime/UnityEngine.HoloLens.dll (Extension) GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+  RuntimeEditor/UnityEngine.HoloLens.dll (Extension) GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+Setting UnityPurchasing v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing
+  UnityEngine.Purchasing.dll (Extension) GUID: 8E0CD8ED44D4412CBE0642067ABC9E44
+Setting UnityVR v5.5.0 for Unity v5.5.0f3 to /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR
+  Editor/UnityEditor.VR.dll (Extension) GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+  Runtime/UnityEngine.VR.dll (Extension) GUID: 6cdf1e5c78d14720aaadccd4C792df96
+  RuntimeEditor/UnityEngine.VR.dll (Extension) GUID: 307433eba81a469ab1e2084d52d1a5a2
+Registering platform support modules:
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/UnityScript.Lang.dll (this message is harmless)
+Registered platform support modules in: 0.053099s.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Validating Project structure ... 0.003893 seconds.
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.000 seconds
+  file open: 0.000 seconds (22 files)
+  file read: 0.000 seconds (0.065 MB)
+  hash: 0.000 seconds
+----- Compute hash(es) for 11 asset(s).
+----- Asset named Assets/Plugins/Android/Soomla/AndroidManifest.xml is skipped as no actual change.
+----- Asset named Assets/Plugins/Android/Soomla/project.properties is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/SoomlaPostBuild.cs is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/SoomlaSettingsEditor.cs is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/build-tools/Soomla_CoreRunner.py is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/build-tools/Soomla_ProfileRunner.py is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/build-tools/Soomla_StoreRunner.py is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/build-tools/mod_pbxproj.py is skipped as no actual change.
+----- Asset named Assets/Soomla/core_file_list is skipped as no actual change.
+----- Asset named Assets/Soomla/profile_file_list is skipped as no actual change.
+----- Asset named Assets/Soomla/store_file_list is skipped as no actual change.
+
+Refresh: elapses 0.048422 seconds
+Assets/Facebook is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Unloading 300 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.3 MB.
+System memory in use after: 57.3 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 757.
+Total: 0.730947 ms (FindLiveObjects: 0.084767 ms CreateObjectMapping: 0.017511 ms MarkObjects: 0.610299 ms  DeleteObjects: 0.015864 ms)
+
+Assets/Plugins/iOS/Soomla/libSoomlaiOSStore.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libUnityiOSLevelUp.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libUnityiOSProfile.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libSoomlaiOSProfile.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libSoomlaiOSCore.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/SoomlaShared/libKeeva.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libUnityiOSStore.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libSoomlaiOSLevelUp.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libUnitySoomlaiOSCore.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-google/AndroidProfileGoogle.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/SoomlaShared/libs/keeva-1.0.1.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/UnityAndroidLevelup.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/AndroidStore.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-twitter/libSoomlaiOSProfileTwitter.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/SoomlaAndroidCore.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/UnitySoomlaAndroidCore.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-google/google-play-services_lib is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/SoomlaShared/libs/square-otto-1.3.2.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-twitter/twitter4j-asyc-4.0.2.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-billing-services/google-play is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-google/sdk is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-google/libSoomlaiOSProfileGoogle.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/UnityAndroidStore.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/AndroidLevelUp.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-twitter/twitter4j-core-4.0.2.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-twitter/libSTTwitter.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-gamecenter/libSoomlaiOSProfileGameCenter.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/AndroidProfile.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-twitter/AndroidProfileTwitter.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/UnityAndroidProfile.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-billing-services/amazon is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.3 MB.
+System memory in use after: 51.4 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 757.
+Total: 1.135491 ms (FindLiveObjects: 0.181111 ms CreateObjectMapping: 0.046896 ms MarkObjects: 0.902674 ms  DeleteObjects: 0.003676 ms)
+
+Refreshing native plugins compatible for Editor in 8.72 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+
+----- Total AssetImport time: 0.138513s, AssetImport time: 0.084082s, Asset hashing: 0.000451s [66.6 KB, 144.015717 mb/s]
+
+Ignoring 'Assets/Plugins/WP8/Soomla/Placeholder/soomla-wp-core.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/WP8/Soomla/Placeholder/wp-store.dll' because we're compiling for Editor
+Warming cache for 429 main assets: 0.000637 seconds elapsed
+Initializing Unity extensions:
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'  GUID: 852e56802eb941638acbb491814497b0
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll'  GUID: 86f4de9468454445ac2f39e207fafa3a
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll'  GUID: 3c0ad459c1534645b5d603b7cc258f97
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll'  GUID: 97decbdab0634cdd991f8d23ddf0dead
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll'  GUID: 307433eba81a469ab1e2084d52d1a5a2
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll'  GUID: 6cdf1e5c78d14720aaadccd4c792df96
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll'  GUID: 8e0cd8ed44d4412cbe0642067abc9e44
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll'  GUID: 7cbab2be89b54486bbd23a6fe637d30e
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll'  GUID: 739bbd9f364b4268874f9fd86ab3beef
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.2 MB.
+System memory in use after: 54.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 784.
+Total: 1.242656 ms (FindLiveObjects: 0.137896 ms CreateObjectMapping: 0.024549 ms MarkObjects: 1.060902 ms  DeleteObjects: 0.018284 ms)
+
+Export package Assets/Plugins/Android/Soomla/libs/AndroidLevelUp.jar to /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/deploy/out/soomla-unity3d-levelup.unitypackage
+Export package Assets/Plugins/Android/Soomla/libs/UnityAndroidLevelup.jar to /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/deploy/out/soomla-unity3d-levelup.unitypackage
+Export package Assets/Plugins/iOS/Soomla/libSoomlaiOSLevelUp.a to /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/deploy/out/soomla-unity3d-levelup.unitypackage
+Export package Assets/Plugins/iOS/Soomla/libUnityiOSLevelUp.a to /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/deploy/out/soomla-unity3d-levelup.unitypackage
+Export package Assets/Soomla/Scripts/Levelup to /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/deploy/out/soomla-unity3d-levelup.unitypackage
+Export package Assets/Soomla/levelup_file_list to /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/deploy/out/soomla-unity3d-levelup.unitypackage
+Export package Assets/Soomla/Editor/build-tools/Soomla_LevelupRunner.py to /Users/stevelai/Developer/Mine/dbattle/09_soomla/Soomla-levelup/deploy/out/soomla-unity3d-levelup.unitypackage
+Batchmode quit successfully invoked - shutting down!
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (22 files)
+  file read: 0.000 seconds (0.065 MB)
+  hash: 0.000 seconds
+----- Compute hash(es) for 11 asset(s).
+----- Asset named Assets/Plugins/Android/Soomla/AndroidManifest.xml is skipped as no actual change.
+----- Asset named Assets/Plugins/Android/Soomla/project.properties is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/SoomlaPostBuild.cs is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/SoomlaSettingsEditor.cs is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/build-tools/Soomla_CoreRunner.py is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/build-tools/Soomla_ProfileRunner.py is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/build-tools/Soomla_StoreRunner.py is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/build-tools/mod_pbxproj.py is skipped as no actual change.
+----- Asset named Assets/Soomla/core_file_list is skipped as no actual change.
+----- Asset named Assets/Soomla/profile_file_list is skipped as no actual change.
+----- Asset named Assets/Soomla/store_file_list is skipped as no actual change.
+
+Refresh: elapses 0.055823 seconds
+Assets/Facebook is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libSoomlaiOSStore.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libUnityiOSLevelUp.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libUnityiOSProfile.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libSoomlaiOSProfile.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libSoomlaiOSCore.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/SoomlaShared/libKeeva.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libUnityiOSStore.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libSoomlaiOSLevelUp.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libUnitySoomlaiOSCore.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-google/AndroidProfileGoogle.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/SoomlaShared/libs/keeva-1.0.1.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/UnityAndroidLevelup.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/AndroidStore.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-twitter/libSoomlaiOSProfileTwitter.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/SoomlaAndroidCore.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/UnitySoomlaAndroidCore.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-google/google-play-services_lib is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/SoomlaShared/libs/square-otto-1.3.2.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-twitter/twitter4j-asyc-4.0.2.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-billing-services/google-play is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-google/sdk is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-google/libSoomlaiOSProfileGoogle.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/UnityAndroidStore.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/AndroidLevelUp.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-twitter/twitter4j-core-4.0.2.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-twitter/libSTTwitter.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-gamecenter/libSoomlaiOSProfileGameCenter.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/AndroidProfile.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-twitter/AndroidProfileTwitter.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/UnityAndroidProfile.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-billing-services/amazon is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.9 MB.
+System memory in use after: 72.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2705.
+Total: 4.754566 ms (FindLiveObjects: 0.380161 ms CreateObjectMapping: 0.055394 ms MarkObjects: 4.311593 ms  DeleteObjects: 0.006168 ms)
+
+Refreshing native plugins compatible for Editor in 3.25 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+
+----- Total AssetImport time: 0.104439s, AssetImport time: 0.050832s, Asset hashing: 0.000585s [66.6 KB, 111.173782 mb/s]
+
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.000 seconds
+  file open: 0.000 seconds (22 files)
+  file read: 0.000 seconds (0.065 MB)
+  hash: 0.000 seconds
+----- Compute hash(es) for 11 asset(s).
+----- Asset named Assets/Plugins/Android/Soomla/AndroidManifest.xml is skipped as no actual change.
+----- Asset named Assets/Plugins/Android/Soomla/project.properties is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/SoomlaPostBuild.cs is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/SoomlaSettingsEditor.cs is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/build-tools/Soomla_CoreRunner.py is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/build-tools/Soomla_ProfileRunner.py is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/build-tools/Soomla_StoreRunner.py is skipped as no actual change.
+----- Asset named Assets/Soomla/Editor/build-tools/mod_pbxproj.py is skipped as no actual change.
+----- Asset named Assets/Soomla/core_file_list is skipped as no actual change.
+----- Asset named Assets/Soomla/profile_file_list is skipped as no actual change.
+----- Asset named Assets/Soomla/store_file_list is skipped as no actual change.
+
+Refresh: elapses 0.047058 seconds
+Assets/Facebook is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libSoomlaiOSStore.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libUnityiOSLevelUp.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libUnityiOSProfile.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libSoomlaiOSProfile.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libSoomlaiOSCore.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/SoomlaShared/libKeeva.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libUnityiOSStore.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libSoomlaiOSLevelUp.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/iOS/Soomla/libUnitySoomlaiOSCore.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-google/AndroidProfileGoogle.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/SoomlaShared/libs/keeva-1.0.1.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/UnityAndroidLevelup.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/AndroidStore.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-twitter/libSoomlaiOSProfileTwitter.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/SoomlaAndroidCore.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/UnitySoomlaAndroidCore.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-google/google-play-services_lib is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/SoomlaShared/libs/square-otto-1.3.2.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-twitter/twitter4j-asyc-4.0.2.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-billing-services/google-play is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-google/sdk is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-google/libSoomlaiOSProfileGoogle.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/UnityAndroidStore.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/AndroidLevelUp.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-twitter/twitter4j-core-4.0.2.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-twitter/libSTTwitter.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/ios/ios-profile-gamecenter/libSoomlaiOSProfileGameCenter.a is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/AndroidProfile.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-profile-twitter/AndroidProfileTwitter.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/Plugins/Android/Soomla/libs/UnityAndroidProfile.jar is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Assets/WebPlayerTemplates/SoomlaConfig/android/android-billing-services/amazon is a symbolic link. Using symlinks in Unity projects may cause your project to become corrupted if you create multiple references to the same asset, use recursive symlinks or use symlinks to share assets between projects used with different versions of Unity. Make sure you know what you are doing.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/AssetPipeline/AssetDatabase.cpp Line: 729)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.6 MB.
+System memory in use after: 71.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2705.
+Total: 6.220919 ms (FindLiveObjects: 0.571038 ms CreateObjectMapping: 0.076086 ms MarkObjects: 5.547264 ms  DeleteObjects: 0.025453 ms)
+
+Refreshing native plugins compatible for Editor in 3.42 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+
+----- Total AssetImport time: 0.108214s, AssetImport time: 0.060285s, Asset hashing: 0.000533s [66.6 KB, 121.922539 mb/s]
+
+Cleanup mono
+Exiting batchmode successfully now!

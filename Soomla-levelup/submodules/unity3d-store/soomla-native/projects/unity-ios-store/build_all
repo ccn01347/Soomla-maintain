@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+cd $DIR
+
+rm -rf build
+
+xcodebuild -configuration Release -sdk iphoneos -project UnityiOSStore.xcodeproj -target UnityiOSStore clean build CREATING_UNIVERSAL_DIR=$PWD/build/release
+
+cd - > /dev/null

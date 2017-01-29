@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ABE080B195F422A008085AA /* SocialActionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE080A195F422A008085AA /* SocialActionUtils.m */; };
+		3AF01CD21960BCCC0088836B /* SoomlaProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = EF356F02193C90560081DCE0 /* SoomlaProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF01CD31960BCD60088836B /* ProfileEventHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = EF356F2E193CAD580081DCE0 /* ProfileEventHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF01CD41960BCDB0088836B /* UserProfileUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EF356F33193CB6D60081DCE0 /* UserProfileUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF01CD51960BCE10088836B /* ProviderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAE6BD4193CDEEE0077EF7F /* ProviderManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3AF01CD81960BCEF0088836B /* SocialActionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAE6BEE193DDFC20077EF7F /* SocialActionUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF01CD91960BD1B0088836B /* ProviderNotFoundException.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAE6BD9193DA38E0077EF7F /* ProviderNotFoundException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF01CDA1960BD1E0088836B /* UserProfileNotFoundException.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAE6BE6193DC6310077EF7F /* UserProfileNotFoundException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF01CDB1960BD350088836B /* ISocialProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAE6BD3193CD3F60077EF7F /* ISocialProvider.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3AF01CDC1960BD3F0088836B /* IAuthProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAE6BD0193CC7980077EF7F /* IAuthProvider.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3AF01CDD1960BD500088836B /* UserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = EF356F2A193CA52E0081DCE0 /* UserProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF01CDE1960BD560088836B /* IProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EF356F32193CB2060081DCE0 /* IProvider.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3AF01CDF1960BD6E0088836B /* PJSONConsts.h in Headers */ = {isa = PBXBuildFile; fileRef = EF356F25193CA1770081DCE0 /* PJSONConsts.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3AF01CE01960BD730088836B /* UserProfileStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = EF356F37193CBEEB0081DCE0 /* UserProfileStorage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3AFD6F1C1986E174001360D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFD6F1B1986E173001360D9 /* UIKit.framework */; };
+		9D448D971B0A13B400C60D0A /* ConfirmationDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D448D951B0A13B400C60D0A /* ConfirmationDialog.h */; };
+		9D448D981B0A13B400C60D0A /* ConfirmationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D448D961B0A13B400C60D0A /* ConfirmationDialog.m */; };
+		B2FA824F129B837027472536 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8E29C287392244E77F02 /* Score.m */; };
+		B2FA87DEC950CE0EE8D637D5 /* IGameServicesCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FA84430689AA1C4F9EFC98 /* IGameServicesCallbacks.h */; };
+		B2FA890D73779B0FBB7DB85E /* IGameServicesProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FA8551B072D55AF6C4731E /* IGameServicesProvider.h */; };
+		B2FA89250C718A45CD7B8662 /* Leaderboard.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FA83BD1AEA089E3F3DE623 /* Leaderboard.m */; };
+		B2FA89681927AE662788CCFA /* Score.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FA8A3DD9A078FFF6E7DDA0 /* Score.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2FA8B341E2404C706DF4E8A /* Leaderboard.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FA84E9902E5A35D350C9B5 /* Leaderboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF356EFE193C90560081DCE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF356EFD193C90560081DCE0 /* Foundation.framework */; };
+		EF356F03193C90560081DCE0 /* SoomlaProfile.h in Copy Files */ = {isa = PBXBuildFile; fileRef = EF356F02193C90560081DCE0 /* SoomlaProfile.h */; };
+		EF356F05193C90560081DCE0 /* SoomlaProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = EF356F04193C90560081DCE0 /* SoomlaProfile.m */; };
+		EF356F27193CA1770081DCE0 /* PJSONConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = EF356F26193CA1770081DCE0 /* PJSONConsts.m */; };
+		EF356F2C193CA52E0081DCE0 /* UserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = EF356F2B193CA52E0081DCE0 /* UserProfile.m */; };
+		EF356F30193CAD580081DCE0 /* ProfileEventHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = EF356F2F193CAD580081DCE0 /* ProfileEventHandling.m */; };
+		EF356F35193CB6D60081DCE0 /* UserProfileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EF356F34193CB6D60081DCE0 /* UserProfileUtils.m */; };
+		EF356F39193CBEEB0081DCE0 /* UserProfileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF356F38193CBEEB0081DCE0 /* UserProfileStorage.m */; };
+		EFAE6BD6193CDEEE0077EF7F /* ProviderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAE6BD5193CDEEE0077EF7F /* ProviderManager.m */; };
+		EFAE6BDB193DA38E0077EF7F /* ProviderNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAE6BDA193DA38E0077EF7F /* ProviderNotFoundException.m */; };
+		EFAE6BE8193DC6310077EF7F /* UserProfileNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAE6BE7193DC6310077EF7F /* UserProfileNotFoundException.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF356EF8193C90560081DCE0 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				EF356F03193C90560081DCE0 /* SoomlaProfile.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3ABE080A195F422A008085AA /* SocialActionUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialActionUtils.m; sourceTree = "<group>"; };
+		3AFD6F1B1986E173001360D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D448D951B0A13B400C60D0A /* ConfirmationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmationDialog.h; sourceTree = "<group>"; };
+		9D448D961B0A13B400C60D0A /* ConfirmationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmationDialog.m; sourceTree = "<group>"; };
+		B2FA83BD1AEA089E3F3DE623 /* Leaderboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leaderboard.m; sourceTree = "<group>"; };
+		B2FA84430689AA1C4F9EFC98 /* IGameServicesCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGameServicesCallbacks.h; sourceTree = "<group>"; };
+		B2FA84E9902E5A35D350C9B5 /* Leaderboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leaderboard.h; sourceTree = "<group>"; };
+		B2FA8551B072D55AF6C4731E /* IGameServicesProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGameServicesProvider.h; sourceTree = "<group>"; };
+		B2FA8A3DD9A078FFF6E7DDA0 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		B2FA8E29C287392244E77F02 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		EF356EFA193C90560081DCE0 /* libSoomlaiOSProfile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSoomlaiOSProfile.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF356EFD193C90560081DCE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF356F01193C90560081DCE0 /* SoomlaiOSProfile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoomlaiOSProfile-Prefix.pch"; sourceTree = "<group>"; };
+		EF356F02193C90560081DCE0 /* SoomlaProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoomlaProfile.h; sourceTree = "<group>"; };
+		EF356F04193C90560081DCE0 /* SoomlaProfile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoomlaProfile.m; sourceTree = "<group>"; };
+		EF356F0B193C90560081DCE0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF356F15193C90560081DCE0 /* SoomlaiOSProfileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoomlaiOSProfileTests-Info.plist"; sourceTree = "<group>"; };
+		EF356F17193C90560081DCE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF356F25193CA1770081DCE0 /* PJSONConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJSONConsts.h; path = data/PJSONConsts.h; sourceTree = "<group>"; };
+		EF356F26193CA1770081DCE0 /* PJSONConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJSONConsts.m; path = data/PJSONConsts.m; sourceTree = "<group>"; };
+		EF356F2A193CA52E0081DCE0 /* UserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfile.h; path = domain/UserProfile.h; sourceTree = "<group>"; };
+		EF356F2B193CA52E0081DCE0 /* UserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfile.m; path = domain/UserProfile.m; sourceTree = "<group>"; };
+		EF356F2E193CAD580081DCE0 /* ProfileEventHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileEventHandling.h; sourceTree = "<group>"; };
+		EF356F2F193CAD580081DCE0 /* ProfileEventHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileEventHandling.m; sourceTree = "<group>"; };
+		EF356F32193CB2060081DCE0 /* IProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IProvider.h; path = domain/IProvider.h; sourceTree = "<group>"; };
+		EF356F33193CB6D60081DCE0 /* UserProfileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileUtils.h; sourceTree = "<group>"; };
+		EF356F34193CB6D60081DCE0 /* UserProfileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileUtils.m; sourceTree = "<group>"; };
+		EF356F37193CBEEB0081DCE0 /* UserProfileStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfileStorage.h; path = data/UserProfileStorage.h; sourceTree = "<group>"; };
+		EF356F38193CBEEB0081DCE0 /* UserProfileStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfileStorage.m; path = data/UserProfileStorage.m; sourceTree = "<group>"; };
+		EFAE6BD0193CC7980077EF7F /* IAuthProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAuthProvider.h; path = auth/IAuthProvider.h; sourceTree = "<group>"; };
+		EFAE6BD3193CD3F60077EF7F /* ISocialProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISocialProvider.h; path = social/ISocialProvider.h; sourceTree = "<group>"; };
+		EFAE6BD4193CDEEE0077EF7F /* ProviderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderManager.h; sourceTree = "<group>"; };
+		EFAE6BD5193CDEEE0077EF7F /* ProviderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderManager.m; sourceTree = "<group>"; };
+		EFAE6BD9193DA38E0077EF7F /* ProviderNotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProviderNotFoundException.h; path = exceptions/ProviderNotFoundException.h; sourceTree = "<group>"; };
+		EFAE6BDA193DA38E0077EF7F /* ProviderNotFoundException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProviderNotFoundException.m; path = exceptions/ProviderNotFoundException.m; sourceTree = "<group>"; };
+		EFAE6BDD193DAD8E0077EF7F /* SoomlaiOSProfile-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SoomlaiOSProfile-Info.plist"; sourceTree = "<group>"; };
+		EFAE6BE6193DC6310077EF7F /* UserProfileNotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfileNotFoundException.h; path = exceptions/UserProfileNotFoundException.h; sourceTree = "<group>"; };
+		EFAE6BE7193DC6310077EF7F /* UserProfileNotFoundException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfileNotFoundException.m; path = exceptions/UserProfileNotFoundException.m; sourceTree = "<group>"; };
+		EFAE6BEE193DDFC20077EF7F /* SocialActionUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialActionUtils.h; sourceTree = "<group>"; };
+		EFC2E6F019449A3A009BA5CF /* SocialCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocialCallbacks.h; path = social/SocialCallbacks.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF356EF7193C90560081DCE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFD6F1C1986E174001360D9 /* UIKit.framework in Frameworks */,
+				EF356EFE193C90560081DCE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2FA816D3B7F085B075E20FD /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				B2FA83BD1AEA089E3F3DE623 /* Leaderboard.m */,
+				B2FA84E9902E5A35D350C9B5 /* Leaderboard.h */,
+				B2FA8E29C287392244E77F02 /* Score.m */,
+				B2FA8A3DD9A078FFF6E7DDA0 /* Score.h */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		B2FA8637A66728B2FB2BE795 /* game-services */ = {
+			isa = PBXGroup;
+			children = (
+				B2FA8551B072D55AF6C4731E /* IGameServicesProvider.h */,
+				B2FA84430689AA1C4F9EFC98 /* IGameServicesCallbacks.h */,
+				B2FA816D3B7F085B075E20FD /* domain */,
+			);
+			path = "game-services";
+			sourceTree = "<group>";
+		};
+		EF356EF1193C90560081DCE0 = {
+			isa = PBXGroup;
+			children = (
+				EF356EFF193C90560081DCE0 /* SoomlaiOSProfile */,
+				EF356EFC193C90560081DCE0 /* Frameworks */,
+				EF356EFB193C90560081DCE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF356EFB193C90560081DCE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF356EFA193C90560081DCE0 /* libSoomlaiOSProfile.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF356EFC193C90560081DCE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AFD6F1B1986E173001360D9 /* UIKit.framework */,
+				EF356EFD193C90560081DCE0 /* Foundation.framework */,
+				EF356F0B193C90560081DCE0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF356EFF193C90560081DCE0 /* SoomlaiOSProfile */ = {
+			isa = PBXGroup;
+			children = (
+				9D448D951B0A13B400C60D0A /* ConfirmationDialog.h */,
+				9D448D961B0A13B400C60D0A /* ConfirmationDialog.m */,
+				EF356F02193C90560081DCE0 /* SoomlaProfile.h */,
+				EF356F04193C90560081DCE0 /* SoomlaProfile.m */,
+				EF356F14193C90560081DCE0 /* Supporting Files */,
+				EFAE6BD8193DA3670077EF7F /* exceptions */,
+				EFAE6BD2193CD3D80077EF7F /* social */,
+				EFAE6BCF193CC7800077EF7F /* auth */,
+				EF356F29193CA50B0081DCE0 /* domain */,
+				EF356F24193CA1550081DCE0 /* data */,
+				EF356F00193C90560081DCE0 /* Supporting Files */,
+				EF356F2E193CAD580081DCE0 /* ProfileEventHandling.h */,
+				EF356F2F193CAD580081DCE0 /* ProfileEventHandling.m */,
+				EF356F33193CB6D60081DCE0 /* UserProfileUtils.h */,
+				EF356F34193CB6D60081DCE0 /* UserProfileUtils.m */,
+				EFAE6BD4193CDEEE0077EF7F /* ProviderManager.h */,
+				EFAE6BD5193CDEEE0077EF7F /* ProviderManager.m */,
+				EFAE6BEE193DDFC20077EF7F /* SocialActionUtils.h */,
+				3ABE080A195F422A008085AA /* SocialActionUtils.m */,
+				B2FA8637A66728B2FB2BE795 /* game-services */,
+			);
+			path = SoomlaiOSProfile;
+			sourceTree = "<group>";
+		};
+		EF356F00193C90560081DCE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF356F01193C90560081DCE0 /* SoomlaiOSProfile-Prefix.pch */,
+				EFAE6BDD193DAD8E0077EF7F /* SoomlaiOSProfile-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF356F14193C90560081DCE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF356F15193C90560081DCE0 /* SoomlaiOSProfileTests-Info.plist */,
+				EF356F16193C90560081DCE0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			path = SoomlaiOSProfileTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		EF356F24193CA1550081DCE0 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				EF356F25193CA1770081DCE0 /* PJSONConsts.h */,
+				EF356F26193CA1770081DCE0 /* PJSONConsts.m */,
+				EF356F37193CBEEB0081DCE0 /* UserProfileStorage.h */,
+				EF356F38193CBEEB0081DCE0 /* UserProfileStorage.m */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		EF356F29193CA50B0081DCE0 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				EF356F2A193CA52E0081DCE0 /* UserProfile.h */,
+				EF356F2B193CA52E0081DCE0 /* UserProfile.m */,
+				EF356F32193CB2060081DCE0 /* IProvider.h */,
+			);
+			name = domain;
+			sourceTree = "<group>";
+		};
+		EFAE6BCF193CC7800077EF7F /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE6BD0193CC7980077EF7F /* IAuthProvider.h */,
+			);
+			name = auth;
+			sourceTree = "<group>";
+		};
+		EFAE6BD2193CD3D80077EF7F /* social */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE6BD3193CD3F60077EF7F /* ISocialProvider.h */,
+				EFC2E6F019449A3A009BA5CF /* SocialCallbacks.h */,
+			);
+			name = social;
+			sourceTree = "<group>";
+		};
+		EFAE6BD8193DA3670077EF7F /* exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE6BD9193DA38E0077EF7F /* ProviderNotFoundException.h */,
+				EFAE6BDA193DA38E0077EF7F /* ProviderNotFoundException.m */,
+				EFAE6BE6193DC6310077EF7F /* UserProfileNotFoundException.h */,
+				EFAE6BE7193DC6310077EF7F /* UserProfileNotFoundException.m */,
+			);
+			name = exceptions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AF01CD11960BCC30088836B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF01CD21960BCCC0088836B /* SoomlaProfile.h in Headers */,
+				3AF01CDD1960BD500088836B /* UserProfile.h in Headers */,
+				3AF01CD31960BCD60088836B /* ProfileEventHandling.h in Headers */,
+				9D448D971B0A13B400C60D0A /* ConfirmationDialog.h in Headers */,
+				B2FA8B341E2404C706DF4E8A /* Leaderboard.h in Headers */,
+				B2FA89681927AE662788CCFA /* Score.h in Headers */,
+				3AF01CD81960BCEF0088836B /* SocialActionUtils.h in Headers */,
+				3AF01CD41960BCDB0088836B /* UserProfileUtils.h in Headers */,
+				3AF01CD91960BD1B0088836B /* ProviderNotFoundException.h in Headers */,
+				3AF01CDA1960BD1E0088836B /* UserProfileNotFoundException.h in Headers */,
+				3AF01CDE1960BD560088836B /* IProvider.h in Headers */,
+				3AF01CDC1960BD3F0088836B /* IAuthProvider.h in Headers */,
+				3AF01CDB1960BD350088836B /* ISocialProvider.h in Headers */,
+				3AF01CD51960BCE10088836B /* ProviderManager.h in Headers */,
+				3AF01CDF1960BD6E0088836B /* PJSONConsts.h in Headers */,
+				3AF01CE01960BD730088836B /* UserProfileStorage.h in Headers */,
+				B2FA890D73779B0FBB7DB85E /* IGameServicesProvider.h in Headers */,
+				B2FA87DEC950CE0EE8D637D5 /* IGameServicesCallbacks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EF356EF9193C90560081DCE0 /* SoomlaiOSProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF356F1D193C90560081DCE0 /* Build configuration list for PBXNativeTarget "SoomlaiOSProfile" */;
+			buildPhases = (
+				EF356EF6193C90560081DCE0 /* Sources */,
+				EF356EF7193C90560081DCE0 /* Frameworks */,
+				3AF01CD11960BCC30088836B /* Headers */,
+				EF356EF8193C90560081DCE0 /* Copy Files */,
+				3A23D5241960A8FF00F00C9E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoomlaiOSProfile;
+			productName = SoomlaiOSProfile;
+			productReference = EF356EFA193C90560081DCE0 /* libSoomlaiOSProfile.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF356EF2193C90560081DCE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Soomla;
+			};
+			buildConfigurationList = EF356EF5193C90560081DCE0 /* Build configuration list for PBXProject "SoomlaiOSProfile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF356EF1193C90560081DCE0;
+			productRefGroup = EF356EFB193C90560081DCE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF356EF9193C90560081DCE0 /* SoomlaiOSProfile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A23D5241960A8FF00F00C9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "##########################################\n#\n# c.f. http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n#\n# Version 2.7\n#\n# Latest Change:\n# - Supports iPhone 5 / iPod Touch 5 (uses Apple's workaround to lipo bug)\n#\n# Purpose:\n#   Automatically create a Universal static library for iPhone + iPad + iPhone Simulator from within XCode\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n\nset -e\nset -o pipefail\n\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -project \\\"${PROJECT_NAME}.xcodeproj\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\" BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" SYMROOT=\\\"${SYMROOT}\\\"\n\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}.xcodeproj\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\"\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nif [[ -z $CREATING_UNIVERSAL_DIR ]]\nthen\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\nfi\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\n# rm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir -p \"${CREATING_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nxcrun -sdk iphoneos lipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\necho \"Fetching headers from ${PUBLIC_HEADERS_FOLDER_PATH}\"\necho \"  (if you embed your library project in another project, you will need to add\"\necho \"   a \"User Search Headers\" build setting of: (NB INCLUDE THE DOUBLE QUOTES BELOW!)\"\necho '        \"$(TARGET_BUILD_DIR)/usr/local/include/\"'\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}/headers/${PROJECT_NAME}\"\n# * needs to be outside the double quotes?\ncp -r \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}/\"* \"${CREATING_UNIVERSAL_DIR}/headers/${PROJECT_NAME}\"\nfi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF356EF6193C90560081DCE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF356F39193CBEEB0081DCE0 /* UserProfileStorage.m in Sources */,
+				EFAE6BD6193CDEEE0077EF7F /* ProviderManager.m in Sources */,
+				EF356F30193CAD580081DCE0 /* ProfileEventHandling.m in Sources */,
+				9D448D981B0A13B400C60D0A /* ConfirmationDialog.m in Sources */,
+				EF356F35193CB6D60081DCE0 /* UserProfileUtils.m in Sources */,
+				EFAE6BE8193DC6310077EF7F /* UserProfileNotFoundException.m in Sources */,
+				EF356F27193CA1770081DCE0 /* PJSONConsts.m in Sources */,
+				3ABE080B195F422A008085AA /* SocialActionUtils.m in Sources */,
+				EFAE6BDB193DA38E0077EF7F /* ProviderNotFoundException.m in Sources */,
+				EF356F05193C90560081DCE0 /* SoomlaProfile.m in Sources */,
+				EF356F2C193CA52E0081DCE0 /* UserProfile.m in Sources */,
+				B2FA89250C718A45CD7B8662 /* Leaderboard.m in Sources */,
+				B2FA824F129B837027472536 /* Score.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF356F16193C90560081DCE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF356F17193C90560081DCE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF356F1B193C90560081DCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = /headers/private;
+				PUBLIC_HEADERS_FOLDER_PATH = /headers/public;
+				SDKROOT = iphoneos;
+				SYMROOT = out;
+			};
+			name = Debug;
+		};
+		EF356F1C193C90560081DCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRIVATE_HEADERS_FOLDER_PATH = /headers/private;
+				PUBLIC_HEADERS_FOLDER_PATH = /headers/public;
+				SDKROOT = iphoneos;
+				SYMROOT = out;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF356F1E193C90560081DCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SoomlaiOSProfile.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoomlaiOSProfile/SoomlaiOSProfile-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/submodules/soomla-ios-core/SoomlaiOSCore/**",
+				);
+				LIBRARY_SEARCH_PATHS = "build/**";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EF356F1F193C90560081DCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SoomlaiOSProfile.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoomlaiOSProfile/SoomlaiOSProfile-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/submodules/soomla-ios-core/SoomlaiOSCore/**",
+				);
+				LIBRARY_SEARCH_PATHS = "build/**";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF356EF5193C90560081DCE0 /* Build configuration list for PBXProject "SoomlaiOSProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF356F1B193C90560081DCE0 /* Debug */,
+				EF356F1C193C90560081DCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF356F1D193C90560081DCE0 /* Build configuration list for PBXNativeTarget "SoomlaiOSProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF356F1E193C90560081DCE0 /* Debug */,
+				EF356F1F193C90560081DCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF356EF2193C90560081DCE0 /* Project object */;
+}

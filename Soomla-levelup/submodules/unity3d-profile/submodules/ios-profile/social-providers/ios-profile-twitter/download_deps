@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+cd $DIR
+
+IOS_PROFILE_CACHE=~/.soomla/cache/ios-profile
+mkdir -p $IOS_PROFILE_CACHE
+
+mkdir -p libs
+
+STTWITTER_NAME=libSTTwitter.a
+if [ ! -f libs/$STTWITTER_NAME ]; 
+then
+    if [ ! -f $IOS_PROFILE_CACHE/$STTWITTER_NAME ];
+    then
+        echo "Downloading STTwitter..."
+        curl -L -o $IOS_PROFILE_CACHE/$STTWITTER_NAME.tmp http://library.soom.la/fetch/ios-profile-libSTTwitter/0.2.2?cf=dl_deps
+        mv $IOS_PROFILE_CACHE/$STTWITTER_NAME.tmp $IOS_PROFILE_CACHE/$STTWITTER_NAME
+    fi
+    cp $IOS_PROFILE_CACHE/$STTWITTER_NAME libs/$STTWITTER_NAME
+fi

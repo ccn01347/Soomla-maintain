@@ -1,0 +1,21 @@
+[submodule "submodules/ios-store"]
+	path = submodules/ios-store
+	url = https://github.com/soomla/ios-store
+[submodule "submodules/android-store"]
+	path = submodules/android-store
+	url = https://github.com/soomla/android-store
+[submodule "submodules/soomla-unity3d-core"]
+	path = submodules/soomla-unity3d-core
+	url = https://github.com/soomla/soomla-unity3d-core
+[submodule "submodules/soomla-ios-core"]
+	path = submodules/soomla-ios-core
+	url = https://github.com/soomla/soomla-ios-core
+[submodule "submodules/wp-store"]
+	path = submodules/wp-store
+	url = https://github.com/soomla/wp-store
+[submodule "submodules/android-store-google-play"]
+	path = submodules/android-store-google-play
+	url = https://github.com/soomla/android-store-google-play
+[submodule "submodules/android-store-amazon"]
+	path = submodules/android-store-amazon
+	url = https://github.com/soomla/android-store-amazon

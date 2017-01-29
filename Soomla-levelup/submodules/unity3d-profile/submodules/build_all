@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+$DIR/android-profile/build_all
+$DIR/ios-profile/build_all
+$DIR/soomla-unity3d-core/build_all

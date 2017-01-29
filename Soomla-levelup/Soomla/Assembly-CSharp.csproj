@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{6ED1DD88-A83F-236C-F081-1D19666A7B80}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VIDEO;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;SOOMLA_OPEN_SOURCE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Examples\MuffinRush\BasicTest.cs" />
+     <Compile Include="Assets\Examples\MuffinRush\Console.cs" />
+     <Compile Include="Assets\Examples\MuffinRush\Example.cs" />
+     <Compile Include="Assets\Examples\MuffinRush\ExampleEventHandler.cs" />
+     <Compile Include="Assets\Examples\MuffinRush\ExampleWindow.cs" />
+     <Compile Include="Assets\Examples\MuffinRush\MuffinRushAssets.cs" />
+     <Compile Include="Assets\Examples\MuffinRush\TestAssets.cs" />
+     <Compile Include="Assets\Examples\MuffinRush\WorldGenerator.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\AndroidImpl\KeyValueStorageAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\AndroidImpl\RewardStorageAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Config\CoreSettings.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Config\ISoomlaPostBuildTool.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Config\ISoomlaSettings.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Config\ObjectDictionary.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Config\SoomlaEditorScript.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Config\SoomlaPostBuildTools.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Config\UnityDictionary.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Config\android\ISoomlaManifestTools.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Config\android\SoomlaAndroidUtil.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Config\android\SoomlaManifestTools.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\CoreEvents.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\IOSImpl\KeyValueStorageIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\IOSImpl\RewardStorageIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\JSONObject.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\NullCheckable.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Schedule.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Singletons\BaseBehaviour.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Singletons\CodeGeneratedSingleton.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Singletons\SceneSingleton.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\Singletons\UnitySingleton.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\SoomlaEntity.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\SoomlaExtensions.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\SoomlaUtils.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\WPImpl\KeyValueStorageWP.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\WPImpl\RewardStorageWP.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\data\JSONConsts.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\data\KeyValueStorage.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\data\RewardStorage.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\events\CustomEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\events\RewardGivenEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\events\RewardTakenEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\events\SoomlaEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\rewards\BadgeReward.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\rewards\RandomReward.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\rewards\Reward.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Core\rewards\SequenceReward.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\AndroidImpl\GateStorageAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\AndroidImpl\LevelStorageAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\AndroidImpl\MissionStorageAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\AndroidImpl\ScoreStorageAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\AndroidImpl\WorldStorageAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\Config\LevelUpSettings.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\IOSImpl\GateStorageIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\IOSImpl\LevelStorageIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\IOSImpl\MissionStorageIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\IOSImpl\ScoreStorageIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\IOSImpl\WorldStorageIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\Level.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\LevelUpEvents.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\SoomlaLevelUp.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\World.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\challenges\Challenge.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\challenges\Mission.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\challenges\RecordMission.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\challenges\WorldCompletionMission.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\challenges\profile\SocialLikeMission.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\challenges\profile\SocialStatusMission.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\challenges\profile\SocialStoryMission.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\challenges\profile\SocialUploadMission.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\challenges\store\BalanceMission.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\challenges\store\PurchasingMission.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\data\GateStorage.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\data\LUJSONConsts.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\data\LevelStorage.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\data\MissionStorage.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\data\ScoreStorage.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\data\WorldStorage.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\Gate.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\GatesList.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\GatesListAND.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\GatesListOR.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\RecordGate.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\ScheduleGate.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\WorldCompletionGate.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\profile\SocialActionGate.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\profile\SocialLikeGate.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\profile\SocialStatusGate.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\profile\SocialStoryGate.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\profile\SocialUploadGate.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\store\BalanceGate.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\gates\store\PurchasableGate.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\scoring\RangeScore.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\scoring\Score.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Levelup\scoring\VirtualItemScore.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\AndroidImpl\ProfileEventPusherAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\AndroidImpl\ProfileJNIHandler.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\AndroidImpl\SoomlaProfileAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\Config\ProfileManifestTools.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\Config\ProfilePostBuildTool.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\Config\ProfileSettings.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\Domain\PJSONConsts.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\Domain\Provider.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\Domain\SocialActionType.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\Domain\UserProfile.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\IOSImpl\IOS_ProfileErrorCodes.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\IOSImpl\ProfileEventPusherIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\IOSImpl\SoomlaProfileIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\ModalDialog.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\ProfileEvents.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\ProfilePayload.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\SocialPageData.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\SoomlaProfile.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\ProfileInitializedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\UserProfileUpdatedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\UserRatingEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\auth\LoginCancelledEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\auth\LoginFailedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\auth\LoginFinishedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\auth\LoginStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\auth\LogoutFailedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\auth\LogoutFinishedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\auth\LogoutStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\game-services\GetLeaderboardsFailedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\game-services\GetLeaderboardsFinishedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\game-services\GetLeaderboardsStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\game-services\GetScoresFailedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\game-services\GetScoresFinishedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\game-services\GetScoresStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\game-services\ShowLeaderboardsEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\game-services\SubmitScoreFailedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\game-services\SubmitScoreFinishedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\game-services\SubmitScoreStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\BaseSocialActionEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\GetContactsFailedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\GetContactsFinishedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\GetContactsStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\GetFeedFailedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\GetFeedFinishedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\GetFeedStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\InviteCancelledEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\InviteFailedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\InviteFinishedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\InviteStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\SocialActionCancelledEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\SocialActionFailedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\SocialActionFinishedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\events\social\SocialActionStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\exceptions\ProviderNotFoundException.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\exceptions\UserProfileNotFoundException.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\game-services\GameCenterGSProvider.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\game-services\IGameServicesProvider.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\game-services\domain\Leaderboard.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\game-services\domain\Score.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\social-providers\FBSocialProvider.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\social-providers\GoogleProvider.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\social-providers\IAuthProvider.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\social-providers\IProvider.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\social-providers\ISocialProvider.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Profile\social-providers\TwitterSocialProvider.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\AndroidImpl\AndroidJNIHandler.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\AndroidImpl\SoomlaStoreAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\AndroidImpl\StoreEventPusherAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\AndroidImpl\StoreInfoAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\AndroidImpl\VirtualCurrencyStorageAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\AndroidImpl\VirtualGoodsStorageAndroid.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\Config\StoreManifestTools.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\Config\StoreSettings.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\IOSImpl\IOS_ErrorCodes.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\IOSImpl\SoomlaStoreIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\IOSImpl\StoreEventPusherIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\IOSImpl\StoreInfoIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\IOSImpl\VirtualCurrencyStorageIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\IOSImpl\VirtualGoodsStorageIOS.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\IStoreAssets.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\SoomlaStore.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\StoreEvents.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\StoreInventory.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\WPImpl\SoomlaStoreWP.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\WPImpl\StoreEventPusherWP.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\WPImpl\StoreInfoWP.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\WPImpl\VirtualCurrencyStorageWP.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\WPImpl\VirtualGoodsStorageWP.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\data\StoreInfo.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\data\StoreJSONConsts.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\data\VirtualCurrencyStorage.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\data\VirtualGoodsStorage.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\data\VirtualItemStorage.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\domain\MarketItem.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\domain\PurchasableVirtualItem.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\domain\VirtualCategory.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\domain\VirtualItem.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\domain\virtualCurrencies\VirtualCurrency.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\domain\virtualCurrencies\VirtualCurrencyPack.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\domain\virtualGoods\EquippableVG.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\domain\virtualGoods\LifetimeVG.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\domain\virtualGoods\SingleUsePackVG.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\domain\virtualGoods\SingleUseVG.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\domain\virtualGoods\UpgradeVG.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\domain\virtualGoods\VirtualGood.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\BillingNotSupportedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\BillingSupportedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\CurrencyBalanceChangedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\GoodBalanceChangedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\GoodEquippedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\GoodUnEquippedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\GoodUpgradeEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\IabServiceStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\IabServiceStoppedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\ItemPurchaseStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\ItemPurchasedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\MarketItemsRefreshFailedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\MarketItemsRefreshFinishedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\MarketItemsRefreshStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\MarketPurchaseCancelledEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\MarketPurchaseEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\MarketPurchaseStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\MarketRefundEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\RestoreTransactionsFinishedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\RestoreTransactionsStartedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\SoomlaStoreInitializedEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\events\UnexpectedStoreErrorEvent.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\exceptions\InsufficientFundsException.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\exceptions\NotEnoughGoodsException.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\exceptions\VirtualItemNotFoundException.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\purchaseTypes\PurchaseType.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\purchaseTypes\PurchaseWithMarket.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\purchaseTypes\PurchaseWithVirtualItem.cs" />
+     <Compile Include="Assets\Soomla\Scripts\Store\rewards\VirtualItemReward.cs" />
+     <None Include="Assets\Plugins\Android\Soomla\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\SoomlaShared\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\WP8\Soomla\IAPMock.xml" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

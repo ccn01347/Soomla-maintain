@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+cd $DIR
+
+UNITY_PROFILE_CACHE=~/.soomla/cache/android-profile
+mkdir -p $UNITY_PROFILE_CACHE
+
+FACEBOOK_SDK_NAME=facebooksdk-7.2.2-new.zip
+if [ ! -d Soomla/Assets/Facebook ];
+then
+    if [ ! -f $UNITY_PROFILE_CACHE/$FACEBOOK_SDK_NAME ];
+    then
+        curl -L -o $UNITY_PROFILE_CACHE/$FACEBOOK_SDK_NAME.tmp http://library.soom.la/fetch/unity3d-profile-facebook/7.2.2?cf=dl_deps
+        mv $UNITY_PROFILE_CACHE/$FACEBOOK_SDK_NAME.tmp $UNITY_PROFILE_CACHE/$FACEBOOK_SDK_NAME
+    fi
+	unzip -o $UNITY_PROFILE_CACHE/$FACEBOOK_SDK_NAME -d Soomla
+fi
